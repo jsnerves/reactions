@@ -1,0 +1,22 @@
+@import './variables';
+
+.audience {
+  background-color: $gray;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+
+  &__user {
+    line-height: 0;
+    width: 25px;
+    height: 25px;
+    background-color: $white;
+    
+
+    &--me {
+      line-height: 24px;
+      text-align: center;
+      box-shadow: inset 1px 1px 2px black;
+    }
+  }
+}

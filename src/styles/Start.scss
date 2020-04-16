@@ -1,0 +1,36 @@
+@import './variables';
+
+.start {
+  &__tabs {
+    display: flex;
+  }
+
+  &__tab {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: darken($gray, 10%);
+    color: $white;
+
+    &:hover {
+      background-color: $gray;
+    }
+
+    &--active {
+      background-color: $white;
+      color: #000;
+      cursor: default;
+      opacity: 1;
+
+      &:hover {
+        background-color: $white;
+      }
+    }
+  }
+
+  &__content {
+    padding: 25px 25px 20px;
+    background-color: $white;
+  }
+}

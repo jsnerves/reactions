@@ -1,0 +1,34 @@
+@import './variables';
+
+.create {
+  &__reactions {
+    position: relative;
+  }
+
+  &__reactions-list {
+    padding: 5px 15px 15px;
+    background-color: $gray;
+    margin-bottom: 15px;
+  }
+
+  &__bottom {
+    text-align: center;
+    line-height: 0;
+  }
+
+  &__add-icon {
+    font-size: 40px;
+    color: $lightGray;
+    cursor: pointer;
+
+    &:hover {
+      color: darken($lightGray, 8%)
+    }
+  }
+
+  &__bottom-text {
+    float: right;
+    color: $white;
+    opacity: 0.3;
+  }
+}
