@@ -15,27 +15,27 @@ const DEFAULT_REACTIONS = [
   {
     text: 'That\'s interesting',
     color: COLORS[0],
-    emoji: EMOJI[40]
+    emoji: EMOJI[61]
   },
   {
     text: 'I\'m confused',
     color: COLORS[1],
-    emoji: EMOJI[12]
+    emoji: EMOJI[38]
   },
   {
     text: 'Thinking hard',
     color: COLORS[2],
-    emoji: EMOJI[22]
+    emoji: EMOJI[30]
   },
   {
     text: 'Nah... bored',
     color: COLORS[3],
-    emoji: EMOJI[30]
+    emoji: EMOJI[45]
   },
   {
     text: 'I could argue with that',
     color: COLORS[4],
-    emoji: EMOJI[55]
+    emoji: EMOJI[32]
   }
 ]
 
