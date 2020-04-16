@@ -1,6 +1,10 @@
 ### Reactions
 
+---
+
 Depends on Node.js and MongoDB
+
+---
 
 In order to run the app you need to 
 
@@ -19,4 +23,5 @@ In order to run the app you need to
 ```
 
 4) Follow the link in the terminal
+
 ![](http://i.imgur.com/MFdizM7.png)
