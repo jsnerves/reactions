@@ -19,7 +19,7 @@ import getIP from './get-ip'
 
 const { HOST, PORT } = getIP()
 const SECRET = 'secret'
-const DB = 'mongodb://localhost/reactions'
+const DB = 'mongodb://localhost/jsnervesreactions'
 
 // INIT APP
 //=========
