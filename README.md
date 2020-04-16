@@ -7,7 +7,7 @@ speach and respond to that.
 
 ---
 
-This code is a development version that runs server on your local machine. You can create a room and connect to it from your local network devices.
+This code is a development version that runs server on your local machine. You can create a room and connect to it from your local network devices. For the demonstration purposes several dozens of fake audience members are added.
 
 ---
 
