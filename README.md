@@ -27,7 +27,7 @@ In order to run the app you need to
 1) install dependencies
 
 ```
-  npm install --dev
+  npm install
 ```
 
 2) run your mongodb server
